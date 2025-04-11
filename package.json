@@ -1,0 +1,20 @@
+{
+  "name": "goit-js-hw-12-countries",
+  "version": "1.0.0",
+  "homepage": "https://github.com/DaniilKhlivniuk1/goit-js-hw-12-countries.git",
+
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx parcel src/index.html",
+    "build": "parcel build src/index.html --public-url ./",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "parcel": "^2.14.4"
+  }
+}
